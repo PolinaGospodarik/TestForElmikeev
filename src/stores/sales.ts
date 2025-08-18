@@ -69,7 +69,7 @@ export const useSalesStore = defineStore('sales', () => {
             };
 
             const response = await axios.get<SalesApiResponse>(
-                'http://109.73.206.144:6969/api/sales',
+                '/api/sales',
                 { params }
             );
 

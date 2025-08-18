@@ -53,7 +53,7 @@ export const useIncomesStore = defineStore('incomes', () => {
             };
 
             const response = await axios.get<IncomesApiResponse>(
-                'http://109.73.206.144:6969/api/incomes',
+                '/api/incomes',
                 { params }
             );
 

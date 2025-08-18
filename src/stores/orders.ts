@@ -69,7 +69,7 @@ export const useOrdersStore = defineStore('orders', () => {
             };
 
             const response = await axios.get<OrdersApiResponse>(
-                'http://109.73.206.144:6969/api/orders',
+                '/api/orders',
                 { params }
             );
 

@@ -58,7 +58,7 @@ export const useStocksStore = defineStore('stocks', () => {
             };
 
             const response = await axios.get<StocksApiResponse>(
-                'http://109.73.206.144:6969/api/stocks',
+                '/api/stocks',
                 { params }
             );
 
