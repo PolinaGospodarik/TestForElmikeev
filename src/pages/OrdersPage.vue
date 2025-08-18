@@ -15,7 +15,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="lg:container py-5 lg:mx-auto">
+  <div class="lg:container p-5 lg:mx-auto">
     <h1 class="text-black font-bold text-2xl mb-4">Заказы</h1>
 
     <DataChart

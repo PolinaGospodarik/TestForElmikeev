@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/incomes/(.*)",
+      "destination": "http://109.73.206.144:6969/api/incomes/$1"
+    },
+    {
+      "source": "/api/orders/(.*)",
+      "destination": "http://109.73.206.144:6969/api/orders/$1"
+    },
+    {
+      "source": "/api/sales/(.*)",
+      "destination": "http://109.73.206.144:6969/api/sales/$1"
+    },
+    {
+      "source": "/api/stocks/(.*)",
+      "destination": "http://109.73.206.144:6969/api/stocks/$1"
+    }
+  ]
+}
